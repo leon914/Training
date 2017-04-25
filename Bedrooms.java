@@ -24,7 +24,7 @@ public class Bedrooms {
                         break;
                 default: System.out.println("How the hell do u have that many Bedrooms");
                         break;
-                      }
+         }
      }
   }
 }
