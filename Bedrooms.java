@@ -1,4 +1,4 @@
-public class Bedrooms{
+public class Bedrooms {
 
   public static void main(String[] args) {
 
@@ -12,7 +12,7 @@ public class Bedrooms{
     System.out.println("The amount of bedrooms in your house needs to be a whole number");
   }
 
-  if !(rooms < 0) {
+  if (rooms >= 0) {
 
       switch(rooms) {
               case 0: System.out.println("You are Homeless");
