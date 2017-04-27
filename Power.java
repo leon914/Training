@@ -2,36 +2,20 @@ public class Power {
 
   public static void main(String[] args) {
 
-    double power0 = 0;
-    double power1 = 0;
-    boolean isitminus = false;
-
-    power0 = Double.valueOf(args[0]);
-    power1 = Double.valueOf(args[1]);
+    double e = power(Double.valueOf(args[0]),Math.abs(Double.valueOf(args[1])));;
 
     if (Double.valueOf(args[1]) < 0) {
-    power1 = Math.abs(power1);
-    System.out.println(power1);
-    isitminus = true;
+      e = 1 / e;
+    }
+      System.out.println("the first argument to the power of the second argument makes = " + e);
     }
 
-    if (isitminus == true) {
-      power0 = 1;
-      for (int i = 0; i < power1 ; i++) {
-        System.out.println("ha3");
-        power0 = power0 / Double.valueOf(args[0]);
-      }
-      System.out.println("the first argument to the power of the second argument makes = " + power0);
+  public static double power(double x, double y){
+    double e = 1;
+    for (int i = 0; i < y; i++) {
+      e *= x;
+    }
+    return e;
     }
 
-    if (isitminus == false) {
-      for (int i = 1; i < power1 ; i++) {
-      power0 = power0 * Double.valueOf(args[0]);
-      // System.out.println(power0 + " * " + Integer.valueOf(args[0]) + " = " + power0);
-    }
-
-    System.out.println("the first argument to the power of the second argument makes = " + power0);
-
-    }
-  }
 }
