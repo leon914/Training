@@ -20,7 +20,7 @@ public class Volume {
         try {
           volume1 = Double.valueOf(args[0]);
         } catch(Exception e) {
-          System.out.println("1st Argument isnt viable")
+          System.out.println("1st Argument isnt viable");
         }
       }
 
@@ -28,7 +28,7 @@ public class Volume {
         try {
           volume2 = Double.valueOf(args[1]);
         } catch(Exception e) {
-          System.out.println("2nd Argument isnt viable")
+          System.out.println("2nd Argument isnt viable");
         }
       }
 
@@ -36,7 +36,7 @@ public class Volume {
         try {
           volume3 = Double.valueOf(args[2]);
         } catch(Exception e) {
-          System.out.println("3rd Argument isnt viable")
+          System.out.println("3rd Argument isnt viable");
         }
       }
 
