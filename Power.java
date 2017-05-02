@@ -5,19 +5,11 @@ public class Power {
 
   public static void main(String[] args) {
 
-    String format = "#0.00";
-    double answer = power(Double.valueOf(args[0]),Double.valueOf(args[1]));
-    // double answerPlaceHolder = answer;
-    // String.format("%.0f", answerPlaceHolder);
+    double answer = power(Double.valueOf(args[0]),Double.valueOf(args[1]));=
 
-    // for (double i = 3; i < answerPlaceHolder.length; i++) {
-    //   format += "0";
-    // }
+    NumberFormat formatter = new DecimalFormat("###,###.########");
 
-    // NumberFormat formatter = new DecimalFormat("#0.00000000000");
-
-    // System.out.printf("the first argument to the power of the second argument makes: " + formatter.format(answer));
-    System.out.println("the first argument to the power of the second argument makes: " + (Double.toString(answer)));
+    System.out.printf("the first argument to the power of the second argument makes: " + formatter.format(answer) + "\n");
 }
 
   public static double power(double base, double index){
