@@ -14,29 +14,29 @@ public class Volume {
     //   arg = args
     // }
 
-    if (args.length > 2) {
+    if (args.length == 2) {
 
-      if (args[0].length() > 0) {
+      if (Double.valueOf(args[0]) == Double.valueOf(args[0])) {
         try {
           volume1 = Double.valueOf(args[0]);
         } catch(Exception e) {
-          System.out.println("1st Argument isnt viable")
+          System.out.println("1st Argument isnt viable");
         }
       }
 
-      if (args[1].length() > 0) {
+      if (Double.valueOf(args[1]) == Double.valueOf(args[1])) {
         try {
           volume2 = Double.valueOf(args[1]);
         } catch(Exception e) {
-          System.out.println("2nd Argument isnt viable")
+          System.out.println("2nd Argument isnt viable");
         }
       }
 
-      if (args[2].length() > 0) {
+      if (Double.valueOf(args[2]) == Double.valueOf(args[2])){
         try {
           volume3 = Double.valueOf(args[2]);
         } catch(Exception e) {
-          System.out.println("3rd Argument isnt viable")
+          System.out.println("3rd Argument isnt viable");
         }
       }
 
@@ -46,7 +46,7 @@ public class Volume {
         System.out.println("You need to enter 3 args for the program to be able to calculate the Volume.");
       }
     } else {
-      System.out.println("Not enough Arguments Entered");
+      System.out.println("More requirements needed");
     }
 
 
