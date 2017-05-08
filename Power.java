@@ -5,7 +5,7 @@ public class Power {
 
   public static void main(String[] args) {
 
-    double answer = power(Double.valueOf(args[0]),Double.valueOf(args[1]));=
+    double answer = power(Double.valueOf(args[0]),Double.valueOf(args[1]));
 
     NumberFormat formatter = new DecimalFormat("###,###.########");
 
