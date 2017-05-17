@@ -1,0 +1,19 @@
+import java.util.Date;
+import java.time.LocalDateTime;
+
+
+public class File {
+
+  String name;
+  int sizeInKbs;
+  String dateAdded;
+
+  public File(String name, int sizeInKbs) {
+  this.name = name;
+  this.sizeInKbs = sizeInKbs;
+  DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+  LocalDateTime now = LocalDateTime.now()
+  this.dateAdded = LocalDateTime.now()
+
+  }
+}
