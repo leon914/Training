@@ -1,0 +1,4 @@
+interface KeyboardInputHandler {
+
+  void handleKeyboardInput();
+}

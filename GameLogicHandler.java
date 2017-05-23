@@ -1,0 +1,4 @@
+interface GameLogicHandler {
+
+  void handleGameRules();
+}

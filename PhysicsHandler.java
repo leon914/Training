@@ -1,0 +1,4 @@
+interface PhysicsHandler{
+
+  void physicalCollisionsCalculator();
+}
