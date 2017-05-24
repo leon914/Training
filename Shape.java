@@ -16,6 +16,14 @@ public abstract class Shape {
     System.out.println("The Height of the Square is: " + square1.getHeight());
     System.out.println("The Width of the Square is: " + square1.getWidth());
     System.out.println("The Name of the Circle is: " + square1.getName());
+
+    List<Shape> shapes = new ArrayList<>();
+    shapes.add(circle1);
+    shapes.add(square1);
+
+    for (Shape s : shapes) {
+      System.out.println("Shape name: " + getName());
+    }
   }
 
   public String getName() {
