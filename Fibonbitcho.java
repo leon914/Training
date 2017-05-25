@@ -11,7 +11,7 @@ public class Fibonbitcho {
       if ((i & 1) == 0) {
         total = total + i;
       }
-      System.out.println(total)
+      System.out.println(total);
       i++;
     } while (total <= 4000000);
     return total;
