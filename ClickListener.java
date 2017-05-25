@@ -1,0 +1,4 @@
+interface ClickListener {
+
+  void onClick();
+}
